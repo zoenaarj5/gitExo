@@ -1,0 +1,1 @@
+Ceci est un exercice suivant le cours de Git sur OpenClassrooms.com
