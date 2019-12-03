@@ -25,6 +25,7 @@ body{
 	color:white;
 }#middle>aside{
 	border:solid 2px #FEA;
+	color:black;
 	display:inline-block;
 	float:left;
 	width:29%;
