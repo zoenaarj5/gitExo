@@ -1,26 +1,44 @@
 body{
-	background-color:#242;
+	background-color:#248;
+	background-image: url("../../img/landscape.jpg");
+	background-size: 100% auto;
+	background-position:fixed;
+	background-repeat: no-repeat;
 	color:white;
+}nav{
+	padding:1em;
 }nav>ul>li{
 	background-color:rgba(0,0,0,.7);
+	display:inline;
+	font-size: 1.5em;
+	height:auto;
+	list-style-type: none;
 	margin:1px;
-	list-style: none;
+	padding:1em;
+	width:auto;
+}nav>ul>li:hover{
+	background-color: rgba(0,0,0,1);
 }nav>ul>li>a{
 	color:#fea;
+	text-decoration: none;
 }nav>ul>li>a:hover{
 	color:white;
 }#middle>aside{
+	border:solid 2px #FEA;
 	display:inline-block;
 	float:left;
 	width:29%;
-}.page{
+}#middle>.page{
+	background-color:rgba(255,255,255,.8);
+	color:black;
 	display:none;
 	float:left;
 	width:70%;
-}.page:target{
+}#middle>.page:target{
 	display:inline-block;
 }
 .page-title{
 	background-color:black;
 	color:white;
+	font-size:2em;
 }
