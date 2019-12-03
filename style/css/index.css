@@ -1,8 +1,8 @@
 body{
 	background-color:#342;
 	background-image: url("../../img/lion.jpg");
-	background-size: 100% auto;
-	background-position:fixed;
+	background-size: cover;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color:white;
 }nav{
@@ -24,7 +24,8 @@ body{
 }nav>ul>li>a:hover{
 	color:white;
 }#middle>aside{
-	border:solid 2px #FEA;
+	background-color:rgba(255,238,170,.6);
+	border:solid 1px black;
 	color:black;
 	display:inline-block;
 	float:left;
